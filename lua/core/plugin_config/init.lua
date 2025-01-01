@@ -1,4 +1,6 @@
 -- require("core.plugin_config.cyberdream")
+require("core.plugin_config.completions")
+require("core.plugin_config.lsp-config")
 require("core.plugin_config.catppuccin")
 require("core.plugin_config.lualine")
 require("core.plugin_config.nvim-tree")
