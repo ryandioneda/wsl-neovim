@@ -74,10 +74,10 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
-  ["cyberdream.nvim"] = {
+  catppuccin = {
     loaded = true,
-    path = "/home/ryandioneda/.local/share/nvim/site/pack/packer/start/cyberdream.nvim",
-    url = "https://github.com/scottmckendry/cyberdream.nvim"
+    path = "/home/ryandioneda/.local/share/nvim/site/pack/packer/start/catppuccin",
+    url = "https://github.com/catppuccin/nvim"
   },
   ["lualine.nvim"] = {
     loaded = true,

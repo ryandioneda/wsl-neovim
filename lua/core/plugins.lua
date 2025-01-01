@@ -14,10 +14,12 @@ local packer_bootstrap = ensure_packer()
 return require('packer').startup(function(use)
   use 'wbthomason/packer.nvim'
   -- My plugins here
-  use 'scottmckendry/cyberdream.nvim'
+  --use 'scottmckendry/cyberdream.nvim'
+  use { "catppuccin/nvim", as = "catppuccin" }
   use 'nvim-tree/nvim-tree.lua'
   use 'nvim-tree/nvim-web-devicons'
   use 'nvim-treesitter/nvim-treesitter'
+  use 'nvim-lualine/lualine.nvim'
   use {
     'nvim-telescope/telescope.nvim',
     tag = '0.1.8',
