@@ -14,7 +14,23 @@ require("mason-lspconfig").setup({
   ensure_installed = {
     "lua_ls",
     "ts_ls",
+    "pyright",
+    "emmet_ls",
+    "html",
+    "cssls",
+    "tailwindcss",
   }
+})
+
+require("mason-tool-installer").setup({
+  ensure_installed = {
+    "prettier",
+    "stylua",
+    "isort",
+    "black",
+    "pylint",
+    "eslint_d",
+  },
 })
 
 local lspconfig = require("lspconfig")

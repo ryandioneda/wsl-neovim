@@ -10,6 +10,7 @@ require("lazy").setup({
   'hrsh7th/cmp-path',
   'williamboman/mason.nvim',
   'williamboman/mason-lspconfig.nvim',
+  'WhoIsSethDaniel/mason-tool-installer.nvim',
   'neovim/nvim-lspconfig',
   'nvim-telescope/telescope-ui-select.nvim',
   'saadparwaiz1/cmp_luasnip',
