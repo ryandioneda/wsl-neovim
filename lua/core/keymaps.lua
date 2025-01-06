@@ -25,6 +25,7 @@ vim.keymap.set('n', '<leader>p', '"+p', {desc = 'Paste from system register'})
 vim.keymap.set('n', '<leader>yl', '"+yy', {desc = 'Yank line to system register'})
 vim.keymap.set('n', '<leader>tg', ':Telescope git_status<CR>', {desc = 'Telescope gitstatus'})
 
+
 vim.keymap.set('n', ',m', function()
   vim.cmd(":%s/\\r//g")
 end, {desc = 'Remove carriage return characters'})

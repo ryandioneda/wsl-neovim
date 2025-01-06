@@ -1,5 +1,6 @@
 require("lazy").setup({
-  { "catppuccin/nvim", as = "catppuccin" },
+  --{ "catppuccin/nvim", as = "catppuccin" },
+  'rebelot/kanagawa.nvim',
   'nvim-tree/nvim-tree.lua',
   'nvim-tree/nvim-web-devicons',
   'nvim-treesitter/nvim-treesitter',
